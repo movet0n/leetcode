@@ -2,6 +2,13 @@ mod easy;
 
 fn main() {
     //
+    // Longest common prefix
+    //
+    let words = vec!["flower", "flow", "flight"];
+    let result = easy::longest_common_prefix::longest_common_prefix(words);
+    println!(">>> Common prefix: {:?}", result);
+
+    //
     // Palindrom
     //
     // Option 1
