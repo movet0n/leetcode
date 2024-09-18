@@ -33,4 +33,11 @@ fn main() {
     let target = 22;
     let result = easy::two_sum::two_sum(nums, target);
     println!("\n>>> Two sum: {:?}", result);
+
+    /* >>> Uncommon words from two sentences */
+    let s1 = "this apple is sweet";
+    let s2 = "this apple is sour";
+
+    let result = easy::uncommon_words_from_two_sentences::uncommon_words(s1, s2);
+    println!("\n>>> Uncommon words: {:?}", result);
 }
