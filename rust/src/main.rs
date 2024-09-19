@@ -16,7 +16,7 @@ fn main() {
     // Option 2
     let num = 121;
     println!(
-        "\n>>> Palindrom (option 2): {}",
+        ">>> Palindrom (option 2): {}",
         easy::is_palindrome::is_palindrome_first_last(num)
     );
 
@@ -33,6 +33,11 @@ fn main() {
     let target = 22;
     let result = easy::two_sum::two_sum(nums, target);
     println!("\n>>> Two sum: {:?}", result);
+
+    /* >>> Score of string */
+    let word = "hello";
+    let score = easy::score_of_string::score_of_string(word);
+    println!("\n>>> Score of '{}': {}", word, score);
 
     /* >>> Uncommon words from two sentences */
     let s1 = "this apple is sweet";
